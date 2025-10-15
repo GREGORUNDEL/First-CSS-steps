@@ -1,3 +1,6 @@
+body {
+    margin: 0px;
+}
 a {
     text-decoration: none;
     color: rgb(63, 63, 63);
@@ -7,7 +10,12 @@ li {
 }
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(89, 173, 252);
+    padding: 15px;
 }
 .header-menu {
     display: flex;
+    gap: 20px;
 }
