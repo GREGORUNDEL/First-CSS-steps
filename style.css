@@ -1,6 +1,11 @@
 body {
     margin: 0px;
 }
+section {
+    width: 100%;
+    padding: 15px 0px;
+    background-color: aqua;
+}
 a {
     text-decoration: none;
     color: rgb(63, 63, 63);
@@ -12,24 +17,11 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(89, 173, 252);
-    padding: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 40px;
 }
 .header-menu {
     display: flex;
     gap: 20px;
-}
-.strong-title {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(163, 124, 227);
-}
-.title {
-    display: flex;
-    flex-direction: column;
-}
-.img1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
