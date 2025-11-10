@@ -63,3 +63,33 @@ li {
     height: 40px;
     width: 90px;
 }
+.info-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 1070px;
+    padding: 0 40px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+h2 {
+    text-align: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    
+}
+.phplace {
+    display: block;
+    box-sizing: border-box;
+    background-color:rgb(135, 232, 232);
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(0, 172, 172);
+    border-radius: 15px;
+
+}
