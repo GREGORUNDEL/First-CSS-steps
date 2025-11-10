@@ -22,6 +22,9 @@ li {
 .s4 {
     background-color: rgb(210, 210, 210);
 }
+.s5 {
+    padding: 30px 0px;
+}
 .s6 {
     background-color: aqua;
 }
@@ -89,7 +92,21 @@ h2 {
     background-color:rgb(135, 232, 232);
     width: 150px;
     height: 150px;
+    max-width: 100%;
+    max-height: 100%;
     border: 2px solid rgb(0, 172, 172);
     border-radius: 15px;
-
+}
+.card p {
+    text-align: center;
+}
+.thank-block {
+    display: ;
+    max-width: 800px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.thank-block .p2 {
+    text-align: end;
+    font-weight: bold;
 }
