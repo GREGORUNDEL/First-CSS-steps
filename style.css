@@ -26,7 +26,7 @@ li {
     padding: 30px 0px;
 }
 .s6 {
-    background-color: aqua;
+    background-color: rgb(0, 82, 82);
 }
 .header {
     display: flex;
@@ -101,7 +101,6 @@ h2 {
     text-align: center;
 }
 .thank-block {
-    display: ;
     max-width: 800px;
     padding: 0 40px;
     margin: 0 auto;
@@ -109,4 +108,32 @@ h2 {
 .thank-block .p2 {
     text-align: end;
     font-weight: bold;
+}
+.form {
+    display: flex;
+    margin: 0 40px;
+    background-color: rgb(0 164 164);
+    justify-content: space-around;
+    align-items: center;
+}
+.text p {
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+.text .p1 {
+    font-weight: bold;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 5px;
+}
+.b2 {
+    background-color: rgb(0, 164, 164);
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 90px;
+    height: 30px;
+    color: white;
 }
